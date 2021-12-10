@@ -11,7 +11,15 @@ namespace latihan
         public static void main(String[] args)
         {
             Console.WriteLine("INPUT KALIMAT : ");
-            var kata = Console.ReadLine();         
-        }
+            var kalimat = Console.ReadLine();
+            Console.WriteLine("INPUT KALIMAT : ");
+            var kata = Console.ReadLine();
+            Console.WriteLine("OUTPUT:");
+            Console.WriteLine("STATISTIK HURUF: ");
+            Console.WriteLine();
+            Console.WriteLine("STATISTIK KATA: ");
+            Console.WriteLine("JUMLAH HURUF : ");
+            Console.ReadKey();
+        }  
     }
 }
